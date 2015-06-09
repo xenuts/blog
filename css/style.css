@@ -17,8 +17,8 @@
 body {
   background: #eee;
   color: #444;
-  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  font-size: 14px;
+  font-family: "Adobe Garamond Pro" "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 18px;
   text-shadow: 0 0 1px transparent;
 }
 @media screen and (max-width: 1260px) {
@@ -894,21 +894,6 @@ pre .clojure .title {
 }
 pre .deletion {
   color: #dc322f;
-}
-#winterland {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-}
-#winterland canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 body #bdshare {
   position: absolute !important;
